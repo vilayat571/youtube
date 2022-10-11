@@ -9,7 +9,6 @@ import Spinner from "../components/Spinner";
 import { HomePageVideos } from "../interfaces";
 import { clearVideos } from "../store";
 import { useAppSelector } from "../store/hooks";
-import { getHomePageVideos } from "../store/reducers/getHomePageVideo";
 import { getSearchPageVideos } from "../store/reducers/getSearchPageVideos";
 
 export default function Search() {
